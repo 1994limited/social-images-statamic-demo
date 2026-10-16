@@ -6,7 +6,7 @@ The book covers and journal pictures are drawn by `demo:content` (with GD), so t
 
 ## Running it
 
-Social Images is installed from its GitHub repository until it's on Packagist, so you need access to [1994limited/social-images-statamic](https://github.com/1994limited/social-images-statamic) and an SSH key GitHub knows.
+Social Images is installed from [its GitHub repository](https://github.com/1994limited/social-images-statamic) until it's on Packagist.
 
 ```bash
 composer install

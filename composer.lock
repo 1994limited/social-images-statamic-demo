@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adf0ae80f2426b272d225e26ec2654f6",
+    "content-hash": "2c32c2d9cbdaa4d3a23c3365af6e0095",
     "packages": [
         {
             "name": "1994/social-images-statamic",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:1994limited/social-images-statamic.git",
+                "url": "https://github.com/1994limited/social-images-statamic.git",
                 "reference": "b565d644d38571dd2d97d7a85655faeb3b3c1101"
             },
             "dist": {

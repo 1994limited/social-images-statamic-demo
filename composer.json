@@ -100,7 +100,7 @@
     "repositories": {
         "social-images": {
             "type": "vcs",
-            "url": "git@github.com:1994limited/social-images-statamic.git",
+            "url": "https://github.com/1994limited/social-images-statamic.git",
             "no-api": true
         }
     }
