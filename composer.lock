@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "1994/social-images-statamic",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1994limited/social-images-statamic.git",
-                "reference": "e53f07c34e6f33c836a72a1bb9066783f3953c45"
+                "reference": "43463bff4c31097f9031936929904abc1464ffa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/e53f07c34e6f33c836a72a1bb9066783f3953c45",
-                "reference": "e53f07c34e6f33c836a72a1bb9066783f3953c45",
+                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/43463bff4c31097f9031936929904abc1464ffa1",
+                "reference": "43463bff4c31097f9031936929904abc1464ffa1",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
             "support": {
                 "email": "hello@1994.co.uk"
             },
-            "time": "2026-10-16T13:47:45+00:00"
+            "time": "2026-10-16T13:53:21+00:00"
         },
         {
             "name": "ajthinking/archetype",
