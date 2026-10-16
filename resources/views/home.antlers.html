@@ -1,0 +1,12 @@
+<h1>Dog-ear Books</h1>
+<p>An independent bookshop for slow readers and corner-folders.</p>
+<h2>New in</h2>
+<div class="grid">
+    {{ collection:books limit="8" }}
+        <a href="{{ url }}">{{ cover_image }}<img src="{{ glide:url width='360' }}" alt="">{{ /cover_image }}<p>{{ title }}</p></a>
+    {{ /collection:books }}
+</div>
+<h2>From the journal</h2>
+{{ collection:journal limit="4" }}
+    <p><a href="{{ url }}">{{ title }}</a> · {{ date format="j F Y" }}</p>
+{{ /collection:journal }}

@@ -1,0 +1,13 @@
+templates:
+  -
+    id: books0000000000000000
+    collections:
+      - books
+    template: book_jacket
+  -
+    id: everything00000000000
+    template: editorial
+    layouts:
+      - square
+generate_on_save: true
+seo_pro: replace

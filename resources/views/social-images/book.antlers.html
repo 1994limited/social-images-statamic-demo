@@ -1,0 +1,30 @@
+{{#
+    A code template: the book's cover beside its title, on the cover's own
+    colour. Fonts and pictures are inlined by the social_image tags, so the
+    page loads nothing over the network.
+#}}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+    {{ social_image:font family="Fraunces" weight="600" }}
+    {{ social_image:font family="Inter" weight="500" }}
+    body { margin: 0; width: {{ social_layout:width }}px; height: {{ social_layout:height }}px; background: #1f1a14; color: #f6f1e7; font-family: Inter, sans-serif; }
+    .card { display: flex; gap: 64px; align-items: center; height: 100%; padding: 0 80px; box-sizing: border-box; }
+    .cover { width: 320px; height: 480px; object-fit: cover; border-radius: 6px; box-shadow: 0 30px 60px rgb(0 0 0 / 0.5); transform: rotate(-3deg); }
+    .text { flex: 1; height: 420px; display: flex; flex-direction: column; justify-content: center; }
+    h1 { font-family: Fraunces, serif; font-weight: 600; line-height: 1.05; margin: 0 0 24px; }
+    p { margin: 0; font-size: 28px; opacity: 0.8; }
+</style>
+</head>
+<body>
+    <div class="card">
+        {{ if cover_image }}<img class="cover" src="{{ social_image:embed :src="cover_image" width="320" height="480" }}" alt="">{{ /if }}
+        <div class="text">
+            <h1 data-fit="88" data-fit-min="40" data-fit-lines="3">{{ title }}</h1>
+            <p>{{ byline }} · £{{ price }}</p>
+        </div>
+    </div>
+</body>
+</html>

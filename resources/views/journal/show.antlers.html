@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+<p>{{ author:name }} · {{ date format="j F Y" }}</p>
+{{ featured_image }}<img src="{{ glide:url width='900' }}" alt="" style="max-width:100%">{{ /featured_image }}
+{{ content }}
+<div class="share">
+    <p>This page’s social image (og:image):</p>
+    {{ social_image }}<img src="{{ url }}" alt="{{ alt }}" width="600">{{ /social_image }}
+</div>

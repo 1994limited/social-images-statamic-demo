@@ -1,0 +1,8 @@
+<h1>{{ title }}</h1>
+<p><em>{{ byline }}</em> · £{{ price }}</p>
+{{ cover_image }}<img src="{{ glide:url width='400' }}" alt="" style="max-width:300px">{{ /cover_image }}
+<p>{{ blurb }}</p>
+<div class="share">
+    <p>This page’s social image (og:image):</p>
+    {{ social_image }}<img src="{{ url }}" alt="{{ alt }}" width="600">{{ /social_image }}
+</div>

@@ -1,0 +1,9 @@
+title: Journal
+route: '/journal/{slug}'
+template: journal/show
+layout: layout
+date: true
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

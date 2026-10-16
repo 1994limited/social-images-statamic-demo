@@ -1,0 +1,22 @@
+title: Book
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          - { handle: title, field: { type: text, required: true, validate: [required] } }
+          - { handle: byline, field: { type: text, display: Author, width: 50 } }
+          - { handle: price, field: { type: text, display: Price, width: 50, prepend: '£' } }
+          - { handle: blurb, field: { type: textarea, display: Blurb } }
+          - { handle: cover_image, field: { type: assets, display: Cover, container: assets, folder: covers, max_files: 1 } }
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          - { handle: slug, field: { type: slug, localizable: true, validate: 'max:200' } }
+      -
+        display: Social image
+        fields:
+          - import: 'social-images::social_image'

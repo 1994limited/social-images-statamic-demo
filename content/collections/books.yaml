@@ -1,0 +1,5 @@
+title: Books
+route: '/books/{slug}'
+template: books/show
+layout: layout
+sort_dir: asc
