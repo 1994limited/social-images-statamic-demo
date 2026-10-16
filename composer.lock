@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:1994limited/social-images-statamic.git",
-                "reference": "0f1bc752db1cca8ecd93994998ff4b509b32fc14"
+                "reference": "b565d644d38571dd2d97d7a85655faeb3b3c1101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/0f1bc752db1cca8ecd93994998ff4b509b32fc14",
-                "reference": "0f1bc752db1cca8ecd93994998ff4b509b32fc14",
+                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/b565d644d38571dd2d97d7a85655faeb3b3c1101",
+                "reference": "b565d644d38571dd2d97d7a85655faeb3b3c1101",
                 "shasum": ""
             },
             "require": {
@@ -83,7 +83,7 @@
             "support": {
                 "email": "hello@1994.co.uk"
             },
-            "time": "2026-10-16T12:38:56+00:00"
+            "time": "2026-10-16T12:46:34+00:00"
         },
         {
             "name": "ajthinking/archetype",
