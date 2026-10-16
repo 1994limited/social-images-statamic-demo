@@ -28,5 +28,5 @@ Homestead.json
 Homestead.yaml
 Thumbs.db/storage/app/public/social-images
 
-# Demo data, made by `php please demo:users`.
+# Demo data, made by `php artisan demo:users`.
 /users/*.yaml

@@ -1,7 +1,7 @@
 // Screenshots of Dog-ear Books, as used in Social Images' docs. Run against
 // the demo with its users and content, and its images made:
 //
-//   php please demo:users && php please demo:content
+//   php artisan demo:users && php artisan demo:content
 //   php please social-images:generate
 //   node scripts/screenshots.mjs
 //
