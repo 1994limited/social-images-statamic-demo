@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c32c2d9cbdaa4d3a23c3365af6e0095",
+    "content-hash": "24cff93bf23536231018b9c69222570b",
     "packages": [
         {
             "name": "1994/social-images-statamic",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1994limited/social-images-statamic.git",
-                "reference": "b565d644d38571dd2d97d7a85655faeb3b3c1101"
+                "reference": "a3d6e32a937e6a2bfbc443f91f1cea609154d2a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/b565d644d38571dd2d97d7a85655faeb3b3c1101",
-                "reference": "b565d644d38571dd2d97d7a85655faeb3b3c1101",
+                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/a3d6e32a937e6a2bfbc443f91f1cea609154d2a7",
+                "reference": "a3d6e32a937e6a2bfbc443f91f1cea609154d2a7",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,6 @@
                 "spatie/browsershot": "To render images with Chrome on your own server (with Node.js and Puppeteer). Not needed with Cloudflare Browser Rendering.",
                 "statamic/seo-pro": "SEO Pro's og:image and twitter:image can use the generated images (SEO Pro ^7.15)."
             },
-            "default-branch": true,
             "type": "statamic-addon",
             "extra": {
                 "statamic": {
@@ -83,7 +82,7 @@
             "support": {
                 "email": "hello@1994.co.uk"
             },
-            "time": "2026-10-16T12:46:34+00:00"
+            "time": "2026-10-16T13:02:07+00:00"
         },
         {
             "name": "ajthinking/archetype",
@@ -12683,9 +12682,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "1994/social-images-statamic": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
