@@ -23,7 +23,7 @@
         {{ if cover_image }}<img class="cover" src="{{ social_image:embed :src="cover_image" width="320" height="480" }}" alt="">{{ /if }}
         <div class="text">
             <h1 data-fit="88" data-fit-min="40" data-fit-lines="3">{{ title }}</h1>
-            <p>{{ byline }} · £{{ price }}</p>
+            <p>{{ byline }}{{ if price }} · £{{ price }}{{ /if }}</p>
         </div>
     </div>
 </body>
