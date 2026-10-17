@@ -68,16 +68,16 @@
         },
         {
             "name": "1994/social-images-statamic",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1994limited/social-images-statamic.git",
-                "reference": "43797a58901047af99939b53e3623ea2eb2225b2"
+                "reference": "ad04182dc8ed17818a85e7065652dc8d9022db3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/43797a58901047af99939b53e3623ea2eb2225b2",
-                "reference": "43797a58901047af99939b53e3623ea2eb2225b2",
+                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/ad04182dc8ed17818a85e7065652dc8d9022db3d",
+                "reference": "ad04182dc8ed17818a85e7065652dc8d9022db3d",
                 "shasum": ""
             },
             "require": {
@@ -139,9 +139,9 @@
             "support": {
                 "email": "hello@1994.co.uk",
                 "issues": "https://github.com/1994limited/social-images-statamic/issues",
-                "source": "https://github.com/1994limited/social-images-statamic/tree/v1.1.0"
+                "source": "https://github.com/1994limited/social-images-statamic/tree/v1.1.1"
             },
-            "time": "2026-10-17T20:49:07+00:00"
+            "time": "2026-10-17T22:14:31+00:00"
         },
         {
             "name": "ajthinking/archetype",
