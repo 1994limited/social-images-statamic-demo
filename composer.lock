@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "1994/social-images-core",
-            "version": "v1.0.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1994limited/social-images-core.git",
-                "reference": "bfb942ee1973c838c43f914cbf5ab5e046d15aed"
+                "reference": "ab13550de23508bf281eca1328610502ecabe689"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-core/zipball/bfb942ee1973c838c43f914cbf5ab5e046d15aed",
-                "reference": "bfb942ee1973c838c43f914cbf5ab5e046d15aed",
+                "url": "https://api.github.com/repos/1994limited/social-images-core/zipball/ab13550de23508bf281eca1328610502ecabe689",
+                "reference": "ab13550de23508bf281eca1328610502ecabe689",
                 "shasum": ""
             },
             "require": {
@@ -36,6 +36,11 @@
                 "spatie/browsershot": "For the Browsershot renderer (Chrome on your own server, with Node.js and Puppeteer)."
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "NineteenNinetyFour\\SocialImages\\Core\\": "src"
@@ -62,26 +67,26 @@
             "support": {
                 "email": "hello@1994.co.uk",
                 "issues": "https://github.com/1994limited/social-images-core/issues",
-                "source": "https://github.com/1994limited/social-images-core/tree/v1.0.0"
+                "source": "https://github.com/1994limited/social-images-core/tree/v1.1.1"
             },
-            "time": "2026-10-17T20:45:49+00:00"
+            "time": "2026-10-17T22:37:21+00:00"
         },
         {
             "name": "1994/social-images-statamic",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/1994limited/social-images-statamic.git",
-                "reference": "ad04182dc8ed17818a85e7065652dc8d9022db3d"
+                "reference": "b2d454d7439b51f4e8fd264caec41d46173b6819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/ad04182dc8ed17818a85e7065652dc8d9022db3d",
-                "reference": "ad04182dc8ed17818a85e7065652dc8d9022db3d",
+                "url": "https://api.github.com/repos/1994limited/social-images-statamic/zipball/b2d454d7439b51f4e8fd264caec41d46173b6819",
+                "reference": "b2d454d7439b51f4e8fd264caec41d46173b6819",
                 "shasum": ""
             },
             "require": {
-                "1994/social-images-core": "^1.0",
+                "1994/social-images-core": "^1.1.1",
                 "php": "^8.3",
                 "spatie/laravel-screenshot": "^1.2",
                 "statamic/cms": "^6.35"
@@ -139,9 +144,9 @@
             "support": {
                 "email": "hello@1994.co.uk",
                 "issues": "https://github.com/1994limited/social-images-statamic/issues",
-                "source": "https://github.com/1994limited/social-images-statamic/tree/v1.1.1"
+                "source": "https://github.com/1994limited/social-images-statamic/tree/v1.1.2"
             },
-            "time": "2026-10-17T22:14:31+00:00"
+            "time": "2026-10-17T22:37:55+00:00"
         },
         {
             "name": "ajthinking/archetype",
