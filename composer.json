@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.3",
-        "1994/social-images-statamic": "^1.0",
+        "1994/social-images-statamic": "^1.1",
         "laravel/framework": "^13.17",
         "laravel/tinker": "^3.0",
         "spatie/browsershot": "^5.4",
@@ -96,12 +96,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": {
-        "social-images": {
-            "type": "vcs",
-            "url": "https://github.com/1994limited/social-images-statamic.git",
-            "no-api": true
-        }
-    }
+    "prefer-stable": true
 }
