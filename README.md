@@ -29,4 +29,4 @@ php please social-images:generate
 
 ## Screenshots
 
-`node scripts/screenshots.mjs` takes the screenshots in the addon's docs, from a running demo with its images made. It writes to `../social-images-statamic/docs/images`, so run it with the addon checked out beside the demo (or set `SCREENSHOTS`).
+The screenshots in the addon's docs are taken by the script in [`social-images/tools`](https://github.com/1994limited/statamic-marketplace/tree/main/social-images/tools) of the statamic-marketplace repo, from a running demo with its images made. It reads this demo's content, so check the demo out beside that repo (or set `DEMO`), and writes to `social-images/charts` there (or set `SCREENSHOTS`).
